@@ -51,7 +51,7 @@ int stampaMenu(){
     puts("----------------");
     printf("Fai la tua scelta: ");
     scanf(" %d", &scelta);
-    getchar();
+    getchar()
     return scelta;
 }
 
